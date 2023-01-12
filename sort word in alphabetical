@@ -1,0 +1,10 @@
+a=input("Enter a WORD:")
+word=a.split()
+word.sort()
+for word in word:
+       print(word)
+       
+       
+       
+       input:cat bat ant
+       output:ant bat cat
